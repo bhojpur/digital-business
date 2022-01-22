@@ -1,0 +1,12 @@
+.idea
+.vscode
+.DS_Store
+*.swp
+*.swo
+bhojpur.iml
+
+test/tmp/
+
+my save path/
+
+profile.out

@@ -1,0 +1,16 @@
+Please use English, because others could join the discussion, if they got similar issue!
+
+Please answer these questions before submitting your issue.
+
+1. Which version of Go and Digital Business are you using (`businessctl version`)?
+
+2. Which operating system and processor architecture are you using (`go env`)?
+
+3. What did you do?
+
+If possible, provide a recipe for reproducing the error. A complete runnable program is better.
+Please provide the database schemas, if it is an ORM issue.
+
+4. What did you expect to see?
+
+5. What did you see instead?
