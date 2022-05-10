@@ -103,7 +103,7 @@ jobs:
           TARGET_REF: 127.0.0.1:5000
         run: go test -v -coverprofile=coverage.out $(go list ./...)
       - name: Generate code coverage artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: code-coverage
           path: coverage.out
