@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/lib/pq v1.10.4
 	github.com/sirupsen/logrus v1.8.1
-	github.com/spf13/cobra v1.3.0
+	github.com/spf13/cobra v1.5.0
 	google.golang.org/grpc v1.43.0
 	google.golang.org/protobuf v1.27.1
 	k8s.io/apimachinery v0.23.1
