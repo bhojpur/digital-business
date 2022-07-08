@@ -1,6 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.gradle
 .idea
 .vscode
 .DS_Store
+
 *.swp
 *.swo
 bhojpur.iml
@@ -10,3 +14,22 @@ test/tmp/
 my save path/
 
 profile.out
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

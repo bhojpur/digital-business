@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+// Copyright (c) 2018 Bhojpur Consulting Private Limited, India. All rights reserved.
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+
+package v1.users;
+
+option go_package = "github.com/bhojpur/digital-business/api/v1/users;users";
+option java_package = "net.bhojpur.digital.business.users";
+option java_multiple_files = true;
+
+message Branch {
+  string id = 1;
+  string company_id = 2;
+  string region_id = 3;
+  string name = 4;
+  string code = 5;
+  string address = 6;
+  string city = 7;
+  string province = 8;
+  string npwp = 9;
+  string phone = 10;
+  string pic = 11;
+  string pic_phone = 12;
+  string created_at =  13;
+  string created_by = 14;
+  string updated_at = 15;
+  string updated_by = 16;
+}
